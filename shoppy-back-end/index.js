@@ -12,7 +12,6 @@ app.use(cors());
 
 //Db connection
 mongoose.connect('mongodb+srv://UwihanganyeObed:Sun123@cluster0.gvdipjg.mongodb.net/online-Commerce?retryWrites=true&w=majority&appName=Cluster0')
-
 //API creation
 
 app.get("/",(req,res)=>{
